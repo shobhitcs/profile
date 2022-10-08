@@ -1,12 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Maven+Pro&family=Monda:wght@700&display=swap');
+
 * {
     margin: 0 0 0 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 1vw;
 }
 
+.social {
+    /* background-color: aqua; */
+    width: 50px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 30vh;
+}
+
+.handle {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.social div:nth-child(1) {
+    background-color: #2867B2;
+
+}
+
+.social div:nth-child(2) {
+    background-color: black;
+}
+
+.social ion-icon {
+    font-size: 2rem;
+    color: white;
+}
 
 nav {
     width: 100vw;
@@ -19,7 +51,7 @@ nav {
     border-bottom: 1px solid white;
 }
 
-.menu-list{
+.menu-list {
     width: fit-content;
     margin: auto;
     height: 10vh;
@@ -27,16 +59,19 @@ nav {
     align-items: center;
     background-color: #303030;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     padding: 0 2rem 0 2rem;
     font-size: 1.5rem;
     color: white;
     font-family: 'Barlow', sans-serif;
 }
-nav a:hover{
+
+nav a:hover {
     color: palevioletred;
 }
+
 .main {
     position: absolute;
     top: 0vh;
@@ -59,50 +94,59 @@ nav a:hover{
     left: 0;
     /* z-index :4; */
     background-color: gray;
-    
+
 }
-.main h1{
-    color: lightblue;
+
+.main h1 {
+    color: lightcoral;
     font-family: 'Monda', sans-serif;
     font-size: 4.2rem;
     /* font-weight: 900; */
 
 }
-.main h1:hover{
-    color:aqua;
+
+.main h1:hover {
+    color: aqua;
 }
-.info{
+
+.info {
     color: gray;
     font-size: 1.2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.logo-img{
+
+.logo-img {
     margin: vh 10vw 0 10vw;
-    width:250px;
+    width: 250px;
 }
-body img{
+
+body img {
     width: 100%;
     pointer-events: none;
 }
+
 .data {
     position: absolute;
     width: 100%;
     top: 100vh;
     height: 80vh;
 }
-.data h2{
-    color:white;
+
+.data h2 {
+    color: white;
     font-size: 2.5rem;
     padding: 2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.main h3{
-    color:white;
+
+.main h3 {
+    color: white;
     font-size: 2.1rem;
     padding: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.data1{
+
+.data1 {
     position: absolute;
     width: 100%;
     top: 180vh;
@@ -111,7 +155,8 @@ body img{
     justify-content: flex-start;
     padding: 1rem 0 2rem 0;
 }
-.data2{
+
+.data2 {
     position: absolute;
     width: 100%;
     top: 240vh;
@@ -122,7 +167,8 @@ body img{
 
 
 }
-.data3{
+
+.data3 {
     position: absolute;
     width: 100%;
     top: 300vh;
@@ -130,37 +176,108 @@ body img{
     background-color: #303030;
     justify-content: flex-start;
 }
-.footer{
+
+.proj {
+    display: flex;
+    height: auto;
+    width: 80%;
+    justify-content: center;
+    margin: 4rem;
+    /* background-color: bisque; */
+}
+
+.proj img {
+    border-radius: 5px;
+}
+
+.ltab {
+    flex-basis: 50%;
+    padding: 1rem;
+    /* background-color: aquamarine; */
+}
+
+.rtab {
+    flex-basis: 40%;
+    padding: 1rem 1rem 1rem 3rem;
+    /* background-color: blueviolet; */
+
+}
+
+.proj h4 {
+    font-size: 2.2rem;
+    color: aliceblue;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.brief {
+    color: gray;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.desc {
+    padding-top: 1rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.proj button {
+    background-color: cadetblue;
+    font-size: 1.3rem;
+    font-family: 'Monda', sans-serif;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    border: none;
+    padding: 0.3rem 1rem 0.3rem 1rem; 
+    cursor: pointer;
+}
+
+.proj button:hover {
+    box-shadow: 0.1rem 0.1rem 1rem white;
+    /* position: relative; */
+    transition: 0.2s ease-in-out;
+}
+
+.footer {
     position: absolute;
     width: 100%;
     top: 390vh;
     height: 45vh;
     background-color: rgb(30, 28, 28);
 }
-.footer h3{
+
+.footer h3 {
     color: white;
     font-family: 'Monda', sans-serif;
     font-size: 2.2rem;
 }
-.copy{
+
+.copy {
     color: white;
 }
-.contact{
+
+.contact {
     padding-bottom: 1rem;
 }
-ion-icon{
+
+.footer ion-icon {
     color: white;
     font-size: 2rem;
-    padding: 0.1rem;
+    margin: 0.1rem;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     background-color: #303030;
     width: 5px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: gray;
 }
-.tileset{
+
+.tileset {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
@@ -170,10 +287,11 @@ ion-icon{
     /* background-color: aqua; */
     flex-basis: 90%;
     align-items: center;
-    
+
 
 }
-.tiles{
+
+.tiles {
     flex-shrink: 4;
     width: 100px;
     height: 100px;
@@ -181,7 +299,8 @@ ion-icon{
     /* background-color: blue; */
     /* border: 1px solid white; */
 }
-.tiles img{
+
+.tiles img {
     width: 100%;
     height: 100%;
 }
