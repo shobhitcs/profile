@@ -6,6 +6,7 @@
 
 html {
     font-size: 1vw;
+    /* background-color: #303030; */
 }
 
 .social {
@@ -74,6 +75,7 @@ nav a:hover {
 .main {
     position: absolute;
     top: 0vh;
+    /* left: 0vw; */
     width: 100%;
     height: 100vh;
     background-color: #303030;
@@ -131,9 +133,9 @@ body img {
     width: 100%;
     top: 100vh;
     height: 80vh;
-    border-bottom-left-radius: 1.5rem ;
-    border-bottom-right-radius: 1.5rem ;
-    box-shadow: 2rem 1.5rem 2rem gray;
+    border-bottom-left-radius: 1.8rem ;
+    border-bottom-right-radius: 1.8rem ;
+    box-shadow: 0rem 1.5rem 2rem gray;
 }
 
 .data h2 {
@@ -155,9 +157,10 @@ body img {
     width: 100%;
     top: 180vh;
     height: 50vh;
-    background-color: transparent;
+    background-color: rgb(228, 228, 228);
     justify-content: flex-start;
-    padding: 1rem 0 2rem 0;
+    z-index: -1;
+    padding: 2rem 0 2rem 0;
 }
 .data1 h3{
     color: black;
@@ -171,9 +174,9 @@ body img {
     background-color: #303030;
     padding: 1rem 0 2rem 0;
     justify-content: flex-start;
-    border-top-left-radius: 1.5rem ;
-    border-top-right-radius: 1.5rem ;
-    box-shadow: -2rem -1.5rem 2rem gray;
+    border-top-left-radius: 1.8rem ;
+    border-top-right-radius: 1.8rem ;
+    box-shadow: 0rem -1.5rem 2rem gray;
     
     
 }
