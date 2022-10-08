@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Maven+Pro&family=Monda:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&family=Barlow:wght@300&family=Maven+Pro&family=Monda:wght@700&display=swap');
 * {
     margin: 0 0 0 0;
     box-sizing: border-box;
@@ -99,14 +98,16 @@ nav a:hover {
 
 .main h1 {
     color: aqua;
-    font-family: 'Monda', sans-serif;
+    /* font-family: 'Monda', sans-serif; */
+    font-family: 'Arima Madurai', cursive;
+
     font-size: 4.2rem;
     /* font-weight: 900; */
     
 }
 
 .main h1:hover {
-    color: lightcoral;
+    color: lightblue;
 }
 
 .info {
@@ -130,6 +131,9 @@ body img {
     width: 100%;
     top: 100vh;
     height: 80vh;
+    border-bottom-left-radius: 1.5rem ;
+    border-bottom-right-radius: 1.5rem ;
+    box-shadow: 2rem 1.5rem 2rem gray;
 }
 
 .data h2 {
@@ -151,9 +155,12 @@ body img {
     width: 100%;
     top: 180vh;
     height: 50vh;
-    background-color: #303030;
+    background-color: transparent;
     justify-content: flex-start;
     padding: 1rem 0 2rem 0;
+}
+.data1 h3{
+    color: black;
 }
 
 .data2 {
@@ -164,8 +171,11 @@ body img {
     background-color: #303030;
     padding: 1rem 0 2rem 0;
     justify-content: flex-start;
-
-
+    border-top-left-radius: 1.5rem ;
+    border-top-right-radius: 1.5rem ;
+    box-shadow: -2rem -1.5rem 2rem gray;
+    
+    
 }
 
 .data3 {
