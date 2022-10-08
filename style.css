@@ -98,15 +98,15 @@ nav a:hover {
 }
 
 .main h1 {
-    color: lightcoral;
+    color: aqua;
     font-family: 'Monda', sans-serif;
     font-size: 4.2rem;
     /* font-weight: 900; */
-
+    
 }
 
 .main h1:hover {
-    color: aqua;
+    color: lightcoral;
 }
 
 .info {
