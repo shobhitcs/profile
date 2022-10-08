@@ -48,7 +48,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 2;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .menu-list {
@@ -92,7 +92,7 @@ nav a:hover {
     height: 1px;
     bottom: 0;
     left: 0;
-    /* z-index :4; */
+    z-index :14;
     background-color: gray;
 
 }
@@ -150,7 +150,7 @@ body img {
     position: absolute;
     width: 100%;
     top: 180vh;
-    height: 60vh;
+    height: 50vh;
     background-color: #303030;
     justify-content: flex-start;
     padding: 1rem 0 2rem 0;
@@ -159,8 +159,8 @@ body img {
 .data2 {
     position: absolute;
     width: 100%;
-    top: 240vh;
-    height: 60vh;
+    top: 230vh;
+    height: 40vh;
     background-color: #303030;
     padding: 1rem 0 2rem 0;
     justify-content: flex-start;
@@ -171,7 +171,7 @@ body img {
 .data3 {
     position: absolute;
     width: 100%;
-    top: 300vh;
+    top: 270vh;
     height: 90vh;
     background-color: #303030;
     justify-content: flex-start;
@@ -243,7 +243,7 @@ body img {
 .footer {
     position: absolute;
     width: 100%;
-    top: 390vh;
+    top: 360vh;
     height: 45vh;
     background-color: rgb(30, 28, 28);
 }
