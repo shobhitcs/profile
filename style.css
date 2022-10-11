@@ -6,16 +6,12 @@
 html {
     font-size: 1vw;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
-    /* background-color: #303030; */
 }
 
 body {
     font-size: 1vw;
     overflow-y:inherit;
     overflow-x: hidden;
-    /* scroll-behavior: smooth; */
-    /* background-color: #303030; */
 }
 
 .social {
@@ -409,14 +405,5 @@ body img {
     .footer ion-icon {
         font-size: 3rem;
     }
-    /* .proj{
-        flex-direction: column;
-        justify-content: space-evenly;
-    } */
-    /* .rtab{
-        padding: 2rem 0 0 1rem;
-    }
-    .main h1{
-        font-size: 3.1rem;
-    } */
+    
 }
