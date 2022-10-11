@@ -79,12 +79,13 @@ nav {
     background-color: #303030;
 }
 
-nav a {
+nav a,span {
     text-decoration: none;
     padding: 0 2rem 0 2rem;
     font-size: 1.5rem;
     color:rgb(183, 183, 183);
     font-family: 'Barlow', sans-serif;
+    cursor: pointer;
 }
 
 nav a:hover {

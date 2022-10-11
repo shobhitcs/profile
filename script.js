@@ -33,3 +33,6 @@ function animate(){
             
         }
 }
+function scrollwindow(){
+    scrollTo(0,0);
+}
