@@ -88,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(172, 209, 172);
+    color: cyan;
 }
 
 .main {
@@ -114,7 +114,7 @@ nav a:hover {
     left: 0;
     z-index :14;
     background-color: gray;
-
+    
 }
 
 .main h1 {
@@ -155,7 +155,7 @@ body img {
     border-bottom-left-radius: 3rem ;
     border-bottom-right-radius: 3rem ;
     box-shadow: 0rem 1.5rem 2rem gray;
-
+    
 }
 
 .myaboutinfo{
@@ -244,7 +244,7 @@ body img {
     flex-basis: 40%;
     padding: 1rem 1rem 1rem 3rem;
     /* background-color: blueviolet; */
-
+    
 }
 
 .proj h4 {
@@ -263,8 +263,7 @@ body img {
     padding-top: 1rem;
     color: whitesmoke;
     font-size: 1.2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Barlow', sans-serif;
 }
 
 .proj button {
@@ -287,8 +286,8 @@ body img {
 .footer {
     position: absolute;
     width: 100%;
-    top: 340vh;
-    height: 45vh;
+    top: 310vh;
+    height: 35vh;
     background-color: rgb(30, 28, 28);
 }
 
@@ -335,7 +334,7 @@ body img {
     /* background-color: aqua; */
     flex-basis: 90%;
     align-items: center;
-
+    
 
 }
 
@@ -343,7 +342,7 @@ body img {
     flex-shrink: 4;
     width: 100px;
     height: 100px;
-
+    
 }
 
 .tiles img {
@@ -364,7 +363,7 @@ body img {
     opacity: 1;
 }
 .linkactive{
-    color: #1fc5a8 ;
+    color: cyan ;
 }
 
 
@@ -400,6 +399,9 @@ body img {
     .data3{
         height: 60vh;
         justify-content: center;
+    }
+    .footer ion-icon {
+        font-size: 3rem;
     }
     /* .proj{
         flex-direction: column;
