@@ -236,7 +236,7 @@ body img {
 
 .ltab {
     flex-basis: 50%;
-    padding: 1rem;
+    /* padding: 1rem; */
     /* background-color: aquamarine; */
 }
 
@@ -398,7 +398,8 @@ body img {
         height: 80%;
     }
     .data3{
-        /* justify-content: center; */
+        height: 60vh;
+        justify-content: center;
     }
     /* .proj{
         flex-direction: column;
