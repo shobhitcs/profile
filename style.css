@@ -88,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(172, 209, 172);
+    color: cyan;
 }
 
 .main {
@@ -114,14 +114,14 @@ nav a:hover {
     left: 0;
     z-index :14;
     background-color: gray;
-
+    
 }
 
 .main h1 {
-    color: #6bbd99;
+    color: aqua;
     /* font-family: 'Monda', sans-serif; */
     font-family: 'Arima Madurai', cursive;
-
+    
     font-size: 4.2rem;
     /* font-weight: 900; */
     
@@ -155,7 +155,7 @@ body img {
     border-bottom-left-radius: 3rem ;
     border-bottom-right-radius: 3rem ;
     box-shadow: 0rem 1.5rem 2rem gray;
-
+    
 }
 
 .myaboutinfo{
@@ -244,7 +244,7 @@ body img {
     flex-basis: 40%;
     padding: 1rem 1rem 1rem 3rem;
     /* background-color: blueviolet; */
-
+    
 }
 
 .proj h4 {
@@ -263,8 +263,9 @@ body img {
     padding-top: 1rem;
     color: whitesmoke;
     font-size: 1.2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Barlow', sans-serif;
+    
+    
 }
 
 .proj button {
@@ -300,7 +301,7 @@ body img {
 
 .copy {
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .contact {
@@ -335,8 +336,8 @@ body img {
     /* background-color: aqua; */
     flex-basis: 90%;
     align-items: center;
-
-
+    
+    
 }
 
 .tiles {
@@ -364,7 +365,7 @@ body img {
     opacity: 1;
 }
 .linkactive{
-    color: #1fc5a8 ;
+    color: cyan ;
 }
 
 
@@ -404,6 +405,9 @@ body img {
     .footer{
         top: 310vh;
         height: 35vh;
+    }
+    .footer ion-icon {
+        font-size: 3rem;
     }
     /* .proj{
         flex-direction: column;

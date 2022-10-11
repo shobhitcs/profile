@@ -6,7 +6,7 @@ window.addEventListener('scroll',animate);
 
 function animate(){
         let scrollheight=window.scrollY;
-        console.log(scrollheight);
+        // console.log(scrollheight);
 
         let windowheight=window.innerHeight;
         let heightperc=0.44*windowheight;
