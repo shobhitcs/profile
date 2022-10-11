@@ -12,10 +12,10 @@
 <body>
     <nav class="">
         <div class="menu-list">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contacts">Contact</a>
+            <a class="links" href="#home">Home</a>
+            <a class="links" href="#about">About</a>
+            <a class="links" href="#projects">Projects</a>
+            <a class="links" href="#contacts">Contact</a>
         </div>
     </nav>
     <div class="social">
@@ -24,17 +24,20 @@
     </div>
     <div class="foot-back"></div>
     <div class="body">
-        <div class="main bar" id="home">
+
+        <!-- tab class for link activation -->
+        <div class="main bar tab" id="home">
             <div class="logo-img"><img src="./images/dev2.png" alt="Logo"></div>
             <h1 class="init">HEY, I'M SHOBHIT CHAUHAN</h1>
-            <p class="info">Coding enthusiast, Web and Android Developer</p>
+            <p class="info init">Coding enthusiast, Web and Android Developer</p>
         </div>
-        <div class="data main" id="about">
-            <h2>ABOUT ME</h2>
+        <div class="data main tab" id="about">
+            <h2 class="init">ABOUT ME</h2>
+            <p class="myaboutinfo init">Hello, I am Shobhit Chauhan. <br>Currently, I am pursuing B.Tech in Computer Science and Engineering from Indian Institute of Technology, Goa. <br>I am interested in Artificial intelligence and machine learning.</p>
         </div>
         <div class="data1 main">
-            <h3>LANGUAGES</h3>
-            <div class="tileset">
+            <h3 class="init">LANGUAGES</h3>
+            <div class="tileset init">
                 <div class="tiles">
                     <img src="./images/c.png" alt="">
                 </div>
@@ -60,9 +63,9 @@
                 </div>
             </div>
         </div>
-        <div class="data2 main bar">
-            <h3>WEB DEVELOPMENT</h3>
-            <div class="tileset">
+        <div class="data2 main bar " id="projects">
+            <h3 class="init">WEB DEVELOPMENT</h3>
+            <div class="tileset init">
                 <div class="tiles">
                     <img src="./images/github-image.png" alt="">
                 </div>
@@ -80,9 +83,9 @@
                 </div>
             </div>
         </div>
-        <div class="data3 main" id="projects">
-            <h3>PROJECTS</h3>
-            <div class="proj">
+        <div class="data3 main tab" >
+            <h3 class="init">PROJECTS</h3>
+            <div class="proj init">
                 <div class="ltab"><img src="./images/proj1.png" alt=""></div>
                 <div class="rtab">
                     <h4>LIVCast</h4>
@@ -93,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer main" id="contacts">
+        <div class="footer main tab" id="contacts">
             <h3>GET IN TOUCH</h3>
             <div class="contact">
                 <a href="https://github.com/shobhitcs" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
