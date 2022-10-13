@@ -340,6 +340,7 @@ body img {
     flex-shrink: 4;
     width: 100px;
     height: 100px;
+    margin: 1rem;
 
 }
 
@@ -390,9 +391,9 @@ body img {
     .social{
         display: none;
     }
-    .tiles img {
-        width: 80%;
-        height: 80%;
+    .tiles {
+        width: 80px;
+        height: 80px;
     }
     .data3{
         height: 60vh;
